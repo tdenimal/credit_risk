@@ -1,0 +1,6 @@
+context_path: credit_risk.run.ProjectContext
+project_name: "credit_risk"
+project_version: "0.16.5"
+package_name: "credit_risk"
+hooks:
+  - credit_risk.hooks.project_hooks
