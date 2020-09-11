@@ -18,3 +18,14 @@ csv_test_raw:
     type: pandas.CSVDataSet
     filepath: data/01_raw/test_raw.csv
     layer: raw
+
+
+csv_train_intd:
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/train_intd.csv
+    layer: intermediate
+    
+csv_test_intd:
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/test_intd.csv
+    layer: intermediate
